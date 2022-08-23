@@ -1,12 +1,12 @@
 <template>
     <div>
-        <h1>La mia prima app con Vue CLI!</h1>
+        <div class="jumbotron"></div>
     </div>
 </template>
 
 <script>
     export default {
-        name: "MyTitle",
+        name: "Jumbo_Hero",
     }
 </script>
 

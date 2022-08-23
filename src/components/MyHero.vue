@@ -1,12 +1,10 @@
 <template>
-    <div>
-        <div class="jumbotron"></div>
-    </div>
+    <div class="jumbotron">Jumbotron</div>
 </template>
 
 <script>
     export default {
-        name: "Jumbo_Hero",
+        name: "MyHero",
     }
 </script>
 

@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-
+    <MyHero/>
     <MyTitle />
-    <Jumbo_Hero/>
+    
 
   </div>
 </template>
@@ -11,13 +11,13 @@
 <script>
 
 import MyTitle from "@/components/MyTitle.vue";
-import Jumbo_Hero from "@/components/Jumbo_Hero.vue";
+import MyHero from "@/components/MyHero.vue";
     
 export default {
   name: "app",
   components: {
     MyTitle,
-    Jumbo_Hero
+    MyHero
 }
 }
 
